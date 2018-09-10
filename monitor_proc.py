@@ -58,7 +58,7 @@ def main():
         print(i)
         p.append(i)
 
-    r = requests.post("http://192.168.3.35:1988/v1/push", json.dumps(p))
+    #r = requests.post("http://192.168.3.35:1988/v1/push", json.dumps(p))
     print(r)
 
 
